@@ -47,7 +47,7 @@ class AntivirusApiImpl(
     init {
         coroutineScope.launch {
             updateScannerCacheData()
-
+            println(appDirectory)
             val file = kernel32.CreateFile(
                 appDirectory,
                 FILE_LIST_DIRECTORY,

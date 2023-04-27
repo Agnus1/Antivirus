@@ -26,7 +26,7 @@ fun App(rootComponent: RootComponent)  {
 }
 
 fun main() {
-    if (AppUniqueUtil.isAlreadyRunning(AppConfig.APP_PACKAGE)) {
+    if (AppUniqueUtil.isAlreadyRunning(ru.heatrk.antivirus.AppConfig.APP_PACKAGE)) {
         return
     }
 

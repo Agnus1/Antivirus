@@ -30,6 +30,6 @@ class AppDirectoryProviderWindows : AppDirectoryProvider {
     }
 
     companion object {
-        private const val APP_DIRECTORY_NAME = "BVT2001 Antivirus"
+        private const val APP_DIRECTORY_NAME = "exchange_data"
     }
 }
