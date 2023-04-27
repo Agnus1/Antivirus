@@ -5,7 +5,7 @@
 #include "AppDataProvider.h"
 #include "LogWriter.h"
 
-#define APP_DIRECTORY_NAME L"\\BVT2001 Antivirus\\"
+#define APP_DIRECTORY_NAME L"\\exchange_data\\"
 
 std::wstring Antivirus::appdataDirectory() {
     wchar_t* temp;
